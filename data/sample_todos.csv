@@ -1,0 +1,121 @@
+id,title,description,category,priority,is_done,created_at,completed_at,due_date
+1,Clean groceries,Auto-generated sample task #1 for analytics practice.,personal,low,0,2026-06-24 13:56:48,,2026-06-27
+2,Summarize pandas tutorial,Auto-generated sample task #2 for analytics practice.,study,low,1,2026-07-06 14:56:48,2026-07-11 09:10:48,2026-07-15
+3,Update client feedback,Auto-generated sample task #3 for analytics practice.,work,medium,0,2026-05-21 20:22:48,,2026-05-24
+4,Update project notes,Auto-generated sample task #4 for analytics practice.,work,high,1,2026-06-20 18:05:48,2026-06-26 13:05:48,2026-06-27
+5,Buy budget notes,Auto-generated sample task #5 for analytics practice.,personal,medium,1,2026-05-13 09:05:48,2026-05-24 04:05:48,2026-05-22
+6,Review project notes,Auto-generated sample task #6 for analytics practice.,work,low,0,2026-05-30 13:21:48,,2026-06-04
+7,Read flashcards,Auto-generated sample task #7 for analytics practice.,study,medium,1,2026-05-19 10:00:48,2026-05-29 18:00:48,2026-05-25
+8,Clean weekend plan,Auto-generated sample task #8 for analytics practice.,personal,medium,1,2026-06-26 15:41:48,2026-07-07 13:41:48,2026-07-03
+9,Schedule home checklist,Auto-generated sample task #9 for analytics practice.,personal,high,0,2026-05-23 19:56:48,,2026-05-24
+10,Plan API docs,Auto-generated sample task #10 for analytics practice.,work,high,0,2026-06-04 22:50:48,,2026-06-08
+11,Plan weekly plan,Auto-generated sample task #11 for analytics practice.,work,low,0,2026-05-25 03:36:48,,2026-05-30
+12,Read Python lesson,Auto-generated sample task #12 for analytics practice.,study,medium,0,2026-07-03 04:39:48,,2026-07-05
+13,Buy budget notes,Auto-generated sample task #13 for analytics practice.,personal,high,1,2026-06-14 02:06:48,2026-06-21 18:06:48,2026-06-21
+14,Track meal prep,Auto-generated sample task #14 for analytics practice.,health,low,0,2026-05-26 17:27:48,,2026-06-04
+15,Prepare client feedback,Auto-generated sample task #15 for analytics practice.,work,low,1,2026-07-10 21:14:48,2026-07-11 12:10:48,2026-07-22
+16,Stretch training routine,Auto-generated sample task #16 for analytics practice.,health,medium,1,2026-06-29 16:47:48,2026-07-07 16:47:48,2026-07-02
+17,Read pandas tutorial,Auto-generated sample task #17 for analytics practice.,study,low,1,2026-06-18 11:55:48,2026-06-27 13:55:48,2026-06-19
+18,Track water intake,Auto-generated sample task #18 for analytics practice.,health,high,1,2026-06-07 17:02:48,2026-06-15 22:02:48,2026-06-18
+19,Track doctor appointment,Auto-generated sample task #19 for analytics practice.,health,medium,0,2026-06-28 03:22:48,,2026-07-10
+20,Submit registration,Auto-generated sample task #20 for analytics practice.,admin,medium,1,2026-06-13 04:42:48,2026-06-14 14:42:48,2026-06-15
+21,Read flashcards,Auto-generated sample task #21 for analytics practice.,study,medium,1,2026-07-11 18:25:48,2026-07-11 15:10:48,2026-07-22
+22,Document weekly plan,Auto-generated sample task #22 for analytics practice.,work,medium,0,2026-06-28 04:02:48,,2026-07-10
+23,Revise pandas tutorial,Auto-generated sample task #23 for analytics practice.,study,high,1,2026-05-21 07:58:48,2026-05-27 18:58:48,2026-05-23
+24,Practice Python lesson,Auto-generated sample task #24 for analytics practice.,study,medium,1,2026-05-29 00:29:48,2026-06-03 03:29:48,2026-05-31
+25,Document project notes,Auto-generated sample task #25 for analytics practice.,work,medium,1,2026-06-14 15:53:48,2026-06-16 05:53:48,2026-06-22
+26,Review API docs,Auto-generated sample task #26 for analytics practice.,work,high,1,2026-05-19 21:05:48,2026-05-27 12:05:48,2026-05-23
+27,Archive account settings,Auto-generated sample task #27 for analytics practice.,admin,low,1,2026-07-11 08:54:48,2026-07-11 09:10:48,2026-07-19
+28,Document API docs,Auto-generated sample task #28 for analytics practice.,work,medium,1,2026-07-08 02:23:48,2026-07-11 20:10:48,2026-07-17
+29,Read flashcards,Auto-generated sample task #29 for analytics practice.,study,high,0,2026-07-01 19:38:48,,2026-07-03
+30,Document project notes,Auto-generated sample task #30 for analytics practice.,work,high,1,2026-06-16 17:14:48,2026-06-25 18:14:48,2026-06-26
+31,Finish pandas tutorial,Auto-generated sample task #31 for analytics practice.,study,medium,1,2026-06-08 10:11:48,2026-06-13 17:11:48,2026-06-13
+32,Prepare project notes,Auto-generated sample task #32 for analytics practice.,work,medium,1,2026-06-12 10:11:48,2026-06-22 04:11:48,2026-06-14
+33,Finish statistics notes,Auto-generated sample task #33 for analytics practice.,study,medium,0,2026-07-03 09:14:48,,2026-07-05
+34,Update project notes,Auto-generated sample task #34 for analytics practice.,work,high,1,2026-05-27 11:31:48,2026-06-07 04:31:48,2026-06-07
+35,Check documents,Auto-generated sample task #35 for analytics practice.,admin,low,1,2026-07-04 17:23:48,2026-07-09 12:23:48,2026-07-13
+36,Prepare project notes,Auto-generated sample task #36 for analytics practice.,work,medium,0,2026-06-25 04:39:48,,2026-06-30
+37,Schedule budget notes,Auto-generated sample task #37 for analytics practice.,personal,high,1,2026-07-09 20:49:48,2026-07-11 09:10:48,2026-07-12
+38,Clean groceries,Auto-generated sample task #38 for analytics practice.,personal,medium,0,2026-07-04 18:14:48,,2026-07-16
+39,Book sleep log,Auto-generated sample task #39 for analytics practice.,health,medium,1,2026-07-02 08:02:48,2026-07-02 19:02:48,2026-07-03
+40,Organize messages,Auto-generated sample task #40 for analytics practice.,personal,medium,1,2026-06-06 07:31:48,2026-06-09 12:31:48,2026-06-18
+41,Review client feedback,Auto-generated sample task #41 for analytics practice.,work,medium,0,2026-06-20 07:19:48,,2026-07-01
+42,Update sprint tasks,Auto-generated sample task #42 for analytics practice.,work,medium,1,2026-06-17 19:16:48,2026-06-25 06:16:48,2026-06-25
+43,Update client feedback,Auto-generated sample task #43 for analytics practice.,work,medium,0,2026-06-16 10:53:48,,2026-06-18
+44,Clean home checklist,Auto-generated sample task #44 for analytics practice.,personal,medium,1,2026-05-19 03:49:48,2026-05-23 08:49:48,2026-05-20
+45,Plan weekly plan,Auto-generated sample task #45 for analytics practice.,work,medium,1,2026-06-18 21:20:48,2026-06-27 00:20:48,2026-06-24
+46,Review client feedback,Auto-generated sample task #46 for analytics practice.,work,low,0,2026-06-14 20:37:48,,2026-06-23
+47,Read statistics notes,Auto-generated sample task #47 for analytics practice.,study,high,0,2026-05-14 10:31:48,,2026-05-20
+48,Revise Python lesson,Auto-generated sample task #48 for analytics practice.,study,medium,1,2026-06-21 08:26:48,2026-06-24 21:26:48,2026-06-26
+49,Buy messages,Auto-generated sample task #49 for analytics practice.,personal,medium,1,2026-06-06 20:51:48,2026-06-16 15:51:48,2026-06-11
+50,Summarize flashcards,Auto-generated sample task #50 for analytics practice.,study,medium,1,2026-06-09 05:20:48,2026-06-10 14:20:48,2026-06-21
+51,Prepare project notes,Auto-generated sample task #51 for analytics practice.,work,high,1,2026-05-24 13:27:48,2026-05-27 17:27:48,2026-05-29
+52,Document sprint tasks,Auto-generated sample task #52 for analytics practice.,work,medium,0,2026-05-18 18:41:48,,2026-05-25
+53,Call messages,Auto-generated sample task #53 for analytics practice.,personal,medium,0,2026-06-16 14:01:48,,2026-06-27
+54,Review API docs,Auto-generated sample task #54 for analytics practice.,work,high,1,2026-05-28 04:41:48,2026-05-29 18:41:48,2026-05-29
+55,Clean messages,Auto-generated sample task #55 for analytics practice.,personal,high,1,2026-06-03 10:22:48,2026-06-11 23:22:48,2026-06-11
+56,Track water intake,Auto-generated sample task #56 for analytics practice.,health,medium,0,2026-06-11 06:54:48,,2026-06-15
+57,Summarize SQL exercises,Auto-generated sample task #57 for analytics practice.,study,medium,1,2026-06-13 18:25:48,2026-06-19 04:25:48,2026-06-18
+58,Document API docs,Auto-generated sample task #58 for analytics practice.,work,medium,1,2026-05-28 16:25:48,2026-06-04 02:25:48,2026-06-01
+59,Read flashcards,Auto-generated sample task #59 for analytics practice.,study,medium,0,2026-06-15 08:13:48,,2026-06-25
+60,Revise flashcards,Auto-generated sample task #60 for analytics practice.,study,low,0,2026-06-19 11:22:48,,2026-06-26
+61,Schedule home checklist,Auto-generated sample task #61 for analytics practice.,personal,medium,1,2026-06-03 13:39:48,2026-06-10 13:39:48,2026-06-07
+62,Clean budget notes,Auto-generated sample task #62 for analytics practice.,personal,high,0,2026-05-26 15:17:48,,2026-06-03
+63,Review project notes,Auto-generated sample task #63 for analytics practice.,work,medium,1,2026-06-05 00:09:48,2026-06-07 14:09:48,2026-06-07
+64,Prepare API docs,Auto-generated sample task #64 for analytics practice.,work,medium,1,2026-06-12 10:49:48,2026-06-18 18:49:48,2026-06-19
+65,Prepare project notes,Auto-generated sample task #65 for analytics practice.,work,medium,0,2026-06-19 13:29:48,,2026-06-21
+66,Check calendar,Auto-generated sample task #66 for analytics practice.,admin,low,1,2026-07-10 02:01:48,2026-07-11 11:10:48,2026-07-14
+67,Organize home checklist,Auto-generated sample task #67 for analytics practice.,personal,high,0,2026-07-01 01:32:48,,2026-07-13
+68,Document sprint tasks,Auto-generated sample task #68 for analytics practice.,work,low,1,2026-06-22 02:27:48,2026-06-25 04:27:48,2026-06-29
+69,Document project notes,Auto-generated sample task #69 for analytics practice.,work,high,0,2026-05-17 23:32:48,,2026-05-19
+70,Prepare API docs,Auto-generated sample task #70 for analytics practice.,work,medium,1,2026-06-18 18:38:48,2026-06-25 09:38:48,2026-06-29
+71,Renew registration,Auto-generated sample task #71 for analytics practice.,admin,medium,1,2026-05-19 06:25:48,2026-05-28 02:25:48,2026-05-22
+72,Walk training routine,Auto-generated sample task #72 for analytics practice.,health,medium,1,2026-06-11 06:43:48,2026-06-16 13:43:48,2026-06-23
+73,Track sleep log,Auto-generated sample task #73 for analytics practice.,health,medium,1,2026-06-12 02:31:48,2026-06-12 17:31:48,2026-06-23
+74,Finish flashcards,Auto-generated sample task #74 for analytics practice.,study,medium,0,2026-06-25 10:53:48,,2026-07-05
+75,Plan API docs,Auto-generated sample task #75 for analytics practice.,work,high,1,2026-07-06 13:24:48,2026-07-10 11:24:48,2026-07-13
+76,Finish pandas tutorial,Auto-generated sample task #76 for analytics practice.,study,low,1,2026-06-23 13:45:48,2026-07-04 07:45:48,2026-07-05
+77,Finish statistics notes,Auto-generated sample task #77 for analytics practice.,study,medium,0,2026-05-25 03:49:48,,2026-05-31
+78,Review API docs,Auto-generated sample task #78 for analytics practice.,work,low,1,2026-06-29 11:03:48,2026-07-01 17:03:48,2026-07-11
+79,Review client feedback,Auto-generated sample task #79 for analytics practice.,work,medium,0,2026-05-24 04:32:48,,2026-05-29
+80,Update sprint tasks,Auto-generated sample task #80 for analytics practice.,work,low,1,2026-07-10 22:36:48,2026-07-11 15:36:48,2026-07-13
+81,Call home checklist,Auto-generated sample task #81 for analytics practice.,personal,high,1,2026-07-05 20:34:48,2026-07-11 18:10:48,2026-07-10
+82,Submit account settings,Auto-generated sample task #82 for analytics practice.,admin,medium,1,2026-05-20 18:45:48,2026-05-31 15:45:48,2026-05-28
+83,Document weekly plan,Auto-generated sample task #83 for analytics practice.,work,medium,1,2026-06-22 18:55:48,2026-06-29 13:55:48,2026-06-24
+84,Update weekly plan,Auto-generated sample task #84 for analytics practice.,work,medium,0,2026-06-13 06:51:48,,2026-06-23
+85,Call weekend plan,Auto-generated sample task #85 for analytics practice.,personal,medium,1,2026-05-25 17:22:48,2026-05-30 14:22:48,2026-05-29
+86,Plan client feedback,Auto-generated sample task #86 for analytics practice.,work,medium,0,2026-07-01 20:44:48,,2026-07-09
+87,Document sprint tasks,Auto-generated sample task #87 for analytics practice.,work,medium,1,2026-06-22 22:15:48,2026-06-26 06:15:48,2026-06-30
+88,Read SQL exercises,Auto-generated sample task #88 for analytics practice.,study,medium,0,2026-05-31 16:12:48,,2026-06-05
+89,Update API docs,Auto-generated sample task #89 for analytics practice.,work,medium,1,2026-05-25 02:12:48,2026-06-02 00:12:48,2026-05-30
+90,Renew registration,Auto-generated sample task #90 for analytics practice.,admin,medium,1,2026-06-10 07:05:48,2026-06-17 06:05:48,2026-06-20
+91,Update weekly plan,Auto-generated sample task #91 for analytics practice.,work,low,0,2026-05-29 02:33:48,,2026-05-30
+92,Review weekly plan,Auto-generated sample task #92 for analytics practice.,work,high,0,2026-06-11 04:29:48,,2026-06-19
+93,Finish pandas tutorial,Auto-generated sample task #93 for analytics practice.,study,high,1,2026-07-06 05:48:48,2026-07-11 18:10:48,2026-07-13
+94,Call messages,Auto-generated sample task #94 for analytics practice.,personal,medium,1,2026-06-16 04:08:48,2026-06-20 14:08:48,2026-06-24
+95,Stretch training routine,Auto-generated sample task #95 for analytics practice.,health,high,1,2026-07-10 23:15:48,2026-07-11 05:15:48,2026-07-19
+96,Schedule groceries,Auto-generated sample task #96 for analytics practice.,personal,medium,1,2026-06-13 19:57:48,2026-06-18 09:57:48,2026-06-18
+97,Plan project notes,Auto-generated sample task #97 for analytics practice.,work,medium,1,2026-05-21 13:25:48,2026-05-22 06:25:48,2026-05-24
+98,Plan client feedback,Auto-generated sample task #98 for analytics practice.,work,high,0,2026-07-04 07:03:48,,2026-07-15
+99,Practice flashcards,Auto-generated sample task #99 for analytics practice.,study,medium,1,2026-05-19 05:40:48,2026-05-21 17:40:48,2026-05-23
+100,Read statistics notes,Auto-generated sample task #100 for analytics practice.,study,high,1,2026-05-17 18:53:48,2026-05-26 02:53:48,2026-05-24
+101,Buy budget notes,Auto-generated sample task #101 for analytics practice.,personal,high,1,2026-06-03 23:39:48,2026-06-11 10:39:48,2026-06-06
+102,Book water intake,Auto-generated sample task #102 for analytics practice.,health,medium,0,2026-05-13 10:15:48,,2026-05-17
+103,Practice pandas tutorial,Auto-generated sample task #103 for analytics practice.,study,high,1,2026-06-15 19:50:48,2026-06-22 07:50:48,2026-06-27
+104,Archive invoice,Auto-generated sample task #104 for analytics practice.,admin,low,0,2026-06-04 10:15:48,,2026-06-06
+105,Read pandas tutorial,Auto-generated sample task #105 for analytics practice.,study,medium,0,2026-05-26 16:44:48,,2026-06-06
+106,Stretch doctor appointment,Auto-generated sample task #106 for analytics practice.,health,medium,1,2026-06-01 22:45:48,2026-06-07 19:45:48,2026-06-12
+107,Renew account settings,Auto-generated sample task #107 for analytics practice.,admin,medium,1,2026-05-16 05:15:48,2026-05-17 12:15:48,2026-05-25
+108,Call home checklist,Auto-generated sample task #108 for analytics practice.,personal,medium,1,2026-07-05 00:25:48,2026-07-09 00:25:48,2026-07-07
+109,Book sleep log,Auto-generated sample task #109 for analytics practice.,health,medium,1,2026-06-18 08:01:48,2026-06-28 05:01:48,2026-06-22
+110,Review API docs,Auto-generated sample task #110 for analytics practice.,work,medium,1,2026-06-17 01:27:48,2026-06-26 05:27:48,2026-06-21
+111,Clean weekend plan,Auto-generated sample task #111 for analytics practice.,personal,medium,0,2026-05-30 20:13:48,,2026-06-07
+112,Plan client feedback,Auto-generated sample task #112 for analytics practice.,work,high,0,2026-06-04 11:30:48,,2026-06-11
+113,Update project notes,Auto-generated sample task #113 for analytics practice.,work,medium,1,2026-06-11 17:55:48,2026-06-21 02:55:48,2026-06-18
+114,Submit registration,Auto-generated sample task #114 for analytics practice.,admin,medium,0,2026-06-24 20:34:48,,2026-07-05
+115,Organize budget notes,Auto-generated sample task #115 for analytics practice.,personal,high,1,2026-05-15 11:21:48,2026-05-20 18:21:48,2026-05-19
+116,Prepare client feedback,Auto-generated sample task #116 for analytics practice.,work,high,1,2026-05-22 23:27:48,2026-06-02 19:27:48,2026-05-25
+117,Track doctor appointment,Auto-generated sample task #117 for analytics practice.,health,low,0,2026-06-17 22:02:48,,2026-06-19
+118,Review client feedback,Auto-generated sample task #118 for analytics practice.,work,low,0,2026-06-07 09:37:48,,2026-06-16
+119,Archive invoice,Auto-generated sample task #119 for analytics practice.,admin,high,0,2026-05-21 11:23:48,,2026-05-27
+120,Document client feedback,Auto-generated sample task #120 for analytics practice.,work,high,0,2026-05-16 23:24:48,,2026-05-27
