@@ -310,3 +310,18 @@ This project can be released under the MIT License.
 This project is intended as a junior-friendly portfolio piece that connects backend thinking with data analysis. It can stand alone as a small analytics repository or later evolve into a broader todo ecosystem project.
 
 It also demonstrates an additional layer that is useful in real engineering workflows: the ability to inspect, summarize, and document a repository automatically for onboarding, review, and maintenance.
+
+
+## Testing
+
+Run tests locally with:
+
+```bash
+pytest
+```
+
+## Continuous integration
+
+This repository uses GitHub Actions to run automated tests on:
+- pushes to feature, develop, and main branches
+- pull requests targeting develop and main
