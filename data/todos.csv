@@ -1,81 +1,81 @@
 id,title,description,category,status,priority,created_at,due_date,completed_at
-1,Review monthly expenses,Review monthly expenses and document the result.,Finance,open,high,03-07-26 16:05,21-07-26 15:11,
-2,Write release notes,Write release notes and keep the workflow reproducible.,Work,completed,high,27-06-26 22:33,28-06-26 22:33,06-07-26 4:33
-3,Export bank statement,Export bank statement and verify the expected output.,Finance,completed,high,05-06-26 6:20,19-06-26 6:20,05-06-26 11:20
-4,Check subscription costs,Check subscription costs with enough detail for reuse.,Finance,completed,high,25-05-26 5:05,27-05-26 5:05,31-05-26 8:05
-5,Take notes on testing,Take notes on testing with enough detail for reuse.,Study,open,low,27-05-26 0:37,19-07-26 15:11,
-6,Write release notes,Write release notes with enough detail for reuse.,Work,in_progress,medium,18-05-26 3:35,13-07-26 15:11,
-7,Pay utility bill,Pay utility bill with enough detail for reuse.,Finance,in_progress,low,18-05-26 11:47,18-07-26 15:11,
-8,Call family,Call family with enough detail for reuse.,Personal,completed,medium,13-05-26 17:30,15-05-26 17:30,23-05-26 13:30
-9,Book appointment,Book appointment and verify the expected output.,Personal,completed,medium,24-06-26 18:27,03-07-26 18:27,28-06-26 15:27
-10,Take notes on testing,Take notes on testing and document the result.,Study,completed,high,22-06-26 2:54,24-06-26 2:54,25-06-26 20:54
-11,Update savings tracker,Update savings tracker before the next weekly review.,Finance,open,medium,14-05-26 18:42,08-07-26 15:11,
-12,Categorize transactions,Categorize transactions while tracking the main blockers.,Finance,completed,medium,15-05-26 20:46,21-05-26 20:46,19-05-26 0:46
-13,Rename project assets,Rename project assets and document the result.,Admin,open,low,02-07-26 19:01,22-07-26 15:11,
-14,Update project roadmap,Update project roadmap and keep the workflow reproducible.,Work,open,medium,25-06-26 21:16,14-07-26 15:11,
-15,Categorize transactions,Categorize transactions with enough detail for reuse.,Finance,open,medium,24-06-26 2:01,07-07-26 15:11,
-16,Backup important files,Backup important files before the next weekly review.,Admin,completed,high,02-06-26 5:18,13-06-26 5:18,11-06-26 0:18
-17,Organize desk,Organize desk with enough detail for reuse.,Personal,open,medium,23-05-26 22:13,20-07-26 15:11,
-18,Prepare sprint summary,Prepare sprint summary with enough detail for reuse.,Work,in_progress,low,23-06-26 8:08,14-07-26 15:11,
-19,Investigate failing test,Investigate failing test and keep the workflow reproducible.,Work,in_progress,low,08-06-26 11:03,21-07-26 15:11,
-20,Call family,Call family while tracking the main blockers.,Personal,in_progress,medium,28-06-26 21:23,24-07-26 15:11,
-21,Read analytics article,Read analytics article and verify the expected output.,Study,open,medium,09-06-26 1:04,06-07-26 15:11,
-22,Write release notes,Write release notes while tracking the main blockers.,Work,completed,high,07-07-26 16:31,08-07-26 16:31,10-07-26 18:31
-23,Plan dashboard improvements,Plan dashboard improvements with enough detail for reuse.,Work,completed,high,30-05-26 23:58,08-06-26 23:58,02-06-26 22:58
-24,Sort downloads folder,Sort downloads folder and keep the workflow reproducible.,Admin,completed,medium,16-06-26 9:05,18-06-26 9:05,26-06-26 22:05
-25,Read analytics article,Read analytics article and keep the workflow reproducible.,Study,completed,low,29-05-26 18:30,31-05-26 18:30,30-05-26 6:30
-26,Update savings tracker,Update savings tracker and document the result.,Finance,completed,high,14-06-26 10:44,17-06-26 10:44,19-06-26 0:44
-27,Read 20 pages,Read 20 pages and document the result.,Personal,completed,low,07-06-26 12:08,18-06-26 12:08,15-06-26 12:08
-28,Plan dashboard improvements,Plan dashboard improvements before the next weekly review.,Work,completed,medium,29-06-26 2:14,30-06-26 2:14,01-07-26 14:14
-29,Update project roadmap,Update project roadmap with enough detail for reuse.,Work,in_progress,low,24-06-26 1:27,21-07-26 15:11,
-30,Export bank statement,Export bank statement and keep the workflow reproducible.,Finance,completed,medium,08-07-26 20:24,17-07-26 20:24,09-07-26 19:24
-31,Practice SQL queries,Practice SQL queries and document the result.,Study,open,medium,18-05-26 23:01,14-07-26 15:11,
-32,Buy groceries,Buy groceries while tracking the main blockers.,Personal,completed,low,17-06-26 11:15,27-06-26 11:15,21-06-26 5:15
-33,Reply to emails,Reply to emails while tracking the main blockers.,Admin,completed,medium,05-06-26 22:51,10-06-26 22:51,09-06-26 19:51
-34,Update savings tracker,Update savings tracker before the next weekly review.,Finance,completed,high,01-06-26 5:42,07-06-26 5:42,02-06-26 5:42
-35,Schedule workout,Schedule workout while tracking the main blockers.,Health,in_progress,high,28-06-26 22:55,14-07-26 15:11,
-36,Call family,Call family with enough detail for reuse.,Personal,completed,low,28-05-26 5:32,10-06-26 5:32,07-06-26 21:32
-37,Investigate failing test,Investigate failing test while tracking the main blockers.,Work,completed,medium,17-05-26 10:55,19-05-26 10:55,19-05-26 9:55
-38,Archive old files,Archive old files with enough detail for reuse.,Admin,completed,high,21-06-26 8:28,02-07-26 8:28,26-06-26 0:28
-39,Prepare healthy meal,Prepare healthy meal and document the result.,Health,completed,medium,25-06-26 14:11,01-07-26 14:11,28-06-26 10:11
-40,Finish pandas exercise,Finish pandas exercise and verify the expected output.,Study,completed,low,07-06-26 15:04,09-06-26 15:04,10-06-26 8:04
-41,Plan dashboard improvements,Plan dashboard improvements with enough detail for reuse.,Work,open,high,04-07-26 13:52,13-07-26 15:11,
-42,Finish pandas exercise,Finish pandas exercise and verify the expected output.,Study,completed,high,23-05-26 21:15,06-06-26 21:15,30-05-26 16:15
-43,Pay utility bill,Pay utility bill before the next weekly review.,Finance,in_progress,low,22-05-26 9:15,06-07-26 15:11,
-44,Meditation session,Meditation session and verify the expected output.,Health,in_progress,low,25-06-26 9:21,11-07-26 15:11,
-45,Stretch for 20 minutes,Stretch for 20 minutes before the next weekly review.,Health,in_progress,medium,23-06-26 7:57,19-07-26 15:11,
-46,Review Python typing,Review Python typing and document the result.,Study,in_progress,medium,31-05-26 22:46,21-07-26 15:11,
-47,Practice SQL queries,Practice SQL queries and document the result.,Study,in_progress,medium,05-06-26 7:09,18-07-26 15:11,
-48,Plan next month budget,Plan next month budget with enough detail for reuse.,Finance,completed,low,05-07-26 2:14,15-07-26 2:14,08-07-26 10:14
-49,Investigate failing test,Investigate failing test and keep the workflow reproducible.,Work,completed,low,07-06-26 17:25,19-06-26 17:25,17-06-26 23:25
-50,Read analytics article,Read analytics article and document the result.,Study,in_progress,low,03-06-26 4:29,07-07-26 15:11,
-51,Update documentation,Update documentation and verify the expected output.,Admin,completed,medium,23-06-26 22:03,27-06-26 22:03,30-06-26 19:03
-52,Sleep before midnight,Sleep before midnight and verify the expected output.,Health,in_progress,medium,23-06-26 2:36,07-07-26 15:11,
-53,Plan weekly budget,Plan weekly budget while tracking the main blockers.,Personal,open,medium,14-06-26 0:28,24-07-26 15:11,
-54,Clean apartment,Clean apartment and document the result.,Personal,completed,medium,03-06-26 5:06,17-06-26 5:06,07-06-26 2:06
-55,Finish pandas exercise,Finish pandas exercise before the next weekly review.,Study,completed,high,11-06-26 19:17,24-06-26 19:17,13-06-26 9:17
-56,Sleep before midnight,Sleep before midnight while tracking the main blockers.,Health,completed,medium,11-06-26 2:56,14-06-26 2:56,22-06-26 0:56
-57,Plan dashboard improvements,Plan dashboard improvements and document the result.,Work,open,high,21-05-26 16:38,08-07-26 15:11,
-58,Update project roadmap,Update project roadmap before the next weekly review.,Work,in_progress,medium,06-06-26 19:51,22-07-26 15:11,
-59,Categorize transactions,Categorize transactions and keep the workflow reproducible.,Finance,in_progress,medium,16-05-26 9:24,17-07-26 15:11,
-60,Read 20 pages,Read 20 pages and verify the expected output.,Personal,completed,low,10-06-26 18:56,15-06-26 18:56,17-06-26 20:56
-61,Update savings tracker,Update savings tracker before the next weekly review.,Finance,completed,medium,08-06-26 13:03,11-06-26 13:03,12-06-26 1:03
-62,Pay utility bill,Pay utility bill and verify the expected output.,Finance,completed,medium,20-06-26 21:42,27-06-26 21:42,21-06-26 3:42
-63,Track water intake,Track water intake while tracking the main blockers.,Health,in_progress,high,16-05-26 20:47,06-07-26 15:11,
-64,Take notes on testing,Take notes on testing and keep the workflow reproducible.,Study,in_progress,low,15-06-26 21:24,22-07-26 15:11,
-65,Plan weekly budget,Plan weekly budget before the next weekly review.,Personal,completed,medium,18-06-26 4:29,29-06-26 4:29,25-06-26 3:29
-66,Read 20 pages,Read 20 pages and keep the workflow reproducible.,Personal,in_progress,low,08-06-26 14:13,23-07-26 15:11,
-67,Prepare sprint summary,Prepare sprint summary and verify the expected output.,Work,completed,low,01-07-26 13:55,08-07-26 13:55,06-07-26 19:55
-68,Prepare healthy meal,Prepare healthy meal with enough detail for reuse.,Health,open,medium,25-05-26 1:55,11-07-26 15:11,
-69,Categorize transactions,Categorize transactions and document the result.,Finance,in_progress,medium,01-06-26 12:22,11-07-26 15:11,
-70,Organize desk,Organize desk and document the result.,Personal,open,high,11-06-26 18:04,20-07-26 15:11,
-71,Update savings tracker,Update savings tracker with enough detail for reuse.,Finance,completed,medium,25-05-26 17:04,07-06-26 17:04,28-05-26 2:04
-72,Write release notes,Write release notes and document the result.,Work,in_progress,medium,15-05-26 2:46,02-07-26 15:11,
-73,Plan next month budget,Plan next month budget and verify the expected output.,Finance,completed,medium,22-06-26 17:33,05-07-26 17:33,24-06-26 11:33
-74,Refactor analytics module,Refactor analytics module while tracking the main blockers.,Work,completed,medium,09-06-26 18:50,10-06-26 18:50,16-06-26 9:50
-75,Update project roadmap,Update project roadmap with enough detail for reuse.,Work,open,low,28-05-26 10:44,23-07-26 15:11,
-76,Complete plotting tutorial,Complete plotting tutorial while tracking the main blockers.,Study,open,medium,20-05-26 15:34,08-07-26 15:11,
-77,Refactor analytics module,Refactor analytics module and keep the workflow reproducible.,Work,completed,medium,02-06-26 17:47,08-06-26 17:47,03-06-26 8:47
-78,Finish pandas exercise,Finish pandas exercise and keep the workflow reproducible.,Study,completed,low,21-06-26 6:15,01-07-26 6:15,25-06-26 23:15
-79,Write release notes,Write release notes before the next weekly review.,Work,completed,low,10-06-26 21:23,14-06-26 21:23,18-06-26 17:23
-80,Check subscription costs,Check subscription costs and keep the workflow reproducible.,Finance,open,high,28-06-26 2:27,02-07-26 15:11,
+1,Review monthly expenses,Review monthly expenses and document the result.,Finance,open,high,2026-07-03 16:32:08,2026-07-21 15:38:08,
+2,Write release notes,Write release notes and keep the workflow reproducible.,Work,completed,high,2026-06-27 23:00:08,2026-06-28 23:00:08,2026-07-06 05:00:08
+3,Export bank statement,Export bank statement and verify the expected output.,Finance,completed,high,2026-06-05 06:47:08,2026-06-19 06:47:08,2026-06-05 11:47:08
+4,Check subscription costs,Check subscription costs with enough detail for reuse.,Finance,completed,high,2026-05-25 05:32:08,2026-05-27 05:32:08,2026-05-31 08:32:08
+5,Take notes on testing,Take notes on testing with enough detail for reuse.,Study,open,low,2026-05-27 01:04:08,2026-07-19 15:38:08,
+6,Write release notes,Write release notes with enough detail for reuse.,Work,in_progress,medium,2026-05-18 04:02:08,2026-07-13 15:38:08,
+7,Pay utility bill,Pay utility bill with enough detail for reuse.,Finance,in_progress,low,2026-05-18 12:14:08,2026-07-18 15:38:08,
+8,Call family,Call family with enough detail for reuse.,Personal,completed,medium,2026-05-13 17:57:08,2026-05-15 17:57:08,2026-05-23 13:57:08
+9,Book appointment,Book appointment and verify the expected output.,Personal,completed,medium,2026-06-24 18:54:08,2026-07-03 18:54:08,2026-06-28 15:54:08
+10,Take notes on testing,Take notes on testing and document the result.,Study,completed,high,2026-06-22 03:21:08,2026-06-24 03:21:08,2026-06-25 21:21:08
+11,Update savings tracker,Update savings tracker before the next weekly review.,Finance,open,medium,2026-05-14 19:09:08,2026-07-08 15:38:08,
+12,Categorize transactions,Categorize transactions while tracking the main blockers.,Finance,completed,medium,2026-05-15 21:13:08,2026-05-21 21:13:08,2026-05-19 01:13:08
+13,Rename project assets,Rename project assets and document the result.,Admin,open,low,2026-07-02 19:28:08,2026-07-22 15:38:08,
+14,Update project roadmap,Update project roadmap and keep the workflow reproducible.,Work,open,medium,2026-06-25 21:43:08,2026-07-14 15:38:08,
+15,Categorize transactions,Categorize transactions with enough detail for reuse.,Finance,open,medium,2026-06-24 02:28:08,2026-07-07 15:38:08,
+16,Backup important files,Backup important files before the next weekly review.,Admin,completed,high,2026-06-02 05:45:08,2026-06-13 05:45:08,2026-06-11 00:45:08
+17,Organize desk,Organize desk with enough detail for reuse.,Personal,open,medium,2026-05-23 22:40:08,2026-07-20 15:38:08,
+18,Prepare sprint summary,Prepare sprint summary with enough detail for reuse.,Work,in_progress,low,2026-06-23 08:35:08,2026-07-14 15:38:08,
+19,Investigate failing test,Investigate failing test and keep the workflow reproducible.,Work,in_progress,low,2026-06-08 11:30:08,2026-07-21 15:38:08,
+20,Call family,Call family while tracking the main blockers.,Personal,in_progress,medium,2026-06-28 21:50:08,2026-07-24 15:38:08,
+21,Read analytics article,Read analytics article and verify the expected output.,Study,open,medium,2026-06-09 01:31:08,2026-07-06 15:38:08,
+22,Write release notes,Write release notes while tracking the main blockers.,Work,completed,high,2026-07-07 16:58:08,2026-07-08 16:58:08,2026-07-10 18:58:08
+23,Plan dashboard improvements,Plan dashboard improvements with enough detail for reuse.,Work,completed,high,2026-05-31 00:25:08,2026-06-09 00:25:08,2026-06-02 23:25:08
+24,Sort downloads folder,Sort downloads folder and keep the workflow reproducible.,Admin,completed,medium,2026-06-16 09:32:08,2026-06-18 09:32:08,2026-06-26 22:32:08
+25,Read analytics article,Read analytics article and keep the workflow reproducible.,Study,completed,low,2026-05-29 18:57:08,2026-05-31 18:57:08,2026-05-30 06:57:08
+26,Update savings tracker,Update savings tracker and document the result.,Finance,completed,high,2026-06-14 11:11:08,2026-06-17 11:11:08,2026-06-19 01:11:08
+27,Read 20 pages,Read 20 pages and document the result.,Personal,completed,low,2026-06-07 12:35:08,2026-06-18 12:35:08,2026-06-15 12:35:08
+28,Plan dashboard improvements,Plan dashboard improvements before the next weekly review.,Work,completed,medium,2026-06-29 02:41:08,2026-06-30 02:41:08,2026-07-01 14:41:08
+29,Update project roadmap,Update project roadmap with enough detail for reuse.,Work,in_progress,low,2026-06-24 01:54:08,2026-07-21 15:38:08,
+30,Export bank statement,Export bank statement and keep the workflow reproducible.,Finance,completed,medium,2026-07-08 20:51:08,2026-07-17 20:51:08,2026-07-09 19:51:08
+31,Practice SQL queries,Practice SQL queries and document the result.,Study,open,medium,2026-05-18 23:28:08,2026-07-14 15:38:08,
+32,Buy groceries,Buy groceries while tracking the main blockers.,Personal,completed,low,2026-06-17 11:42:08,2026-06-27 11:42:08,2026-06-21 05:42:08
+33,Reply to emails,Reply to emails while tracking the main blockers.,Admin,completed,medium,2026-06-05 23:18:08,2026-06-10 23:18:08,2026-06-09 20:18:08
+34,Update savings tracker,Update savings tracker before the next weekly review.,Finance,completed,high,2026-06-01 06:09:08,2026-06-07 06:09:08,2026-06-02 06:09:08
+35,Schedule workout,Schedule workout while tracking the main blockers.,Health,in_progress,high,2026-06-28 23:22:08,2026-07-14 15:38:08,
+36,Call family,Call family with enough detail for reuse.,Personal,completed,low,2026-05-28 05:59:08,2026-06-10 05:59:08,2026-06-07 21:59:08
+37,Investigate failing test,Investigate failing test while tracking the main blockers.,Work,completed,medium,2026-05-17 11:22:08,2026-05-19 11:22:08,2026-05-19 10:22:08
+38,Archive old files,Archive old files with enough detail for reuse.,Admin,completed,high,2026-06-21 08:55:08,2026-07-02 08:55:08,2026-06-26 00:55:08
+39,Prepare healthy meal,Prepare healthy meal and document the result.,Health,completed,medium,2026-06-25 14:38:08,2026-07-01 14:38:08,2026-06-28 10:38:08
+40,Finish pandas exercise,Finish pandas exercise and verify the expected output.,Study,completed,low,2026-06-07 15:31:08,2026-06-09 15:31:08,2026-06-10 08:31:08
+41,Plan dashboard improvements,Plan dashboard improvements with enough detail for reuse.,Work,open,high,2026-07-04 14:19:08,2026-07-13 15:38:08,
+42,Finish pandas exercise,Finish pandas exercise and verify the expected output.,Study,completed,high,2026-05-23 21:42:08,2026-06-06 21:42:08,2026-05-30 16:42:08
+43,Pay utility bill,Pay utility bill before the next weekly review.,Finance,in_progress,low,2026-05-22 09:42:08,2026-07-06 15:38:08,
+44,Meditation session,Meditation session and verify the expected output.,Health,in_progress,low,2026-06-25 09:48:08,2026-07-11 15:38:08,
+45,Stretch for 20 minutes,Stretch for 20 minutes before the next weekly review.,Health,in_progress,medium,2026-06-23 08:24:08,2026-07-19 15:38:08,
+46,Review Python typing,Review Python typing and document the result.,Study,in_progress,medium,2026-05-31 23:13:08,2026-07-21 15:38:08,
+47,Practice SQL queries,Practice SQL queries and document the result.,Study,in_progress,medium,2026-06-05 07:36:08,2026-07-18 15:38:08,
+48,Plan next month budget,Plan next month budget with enough detail for reuse.,Finance,completed,low,2026-07-05 02:41:08,2026-07-15 02:41:08,2026-07-08 10:41:08
+49,Investigate failing test,Investigate failing test and keep the workflow reproducible.,Work,completed,low,2026-06-07 17:52:08,2026-06-19 17:52:08,2026-06-17 23:52:08
+50,Read analytics article,Read analytics article and document the result.,Study,in_progress,low,2026-06-03 04:56:08,2026-07-07 15:38:08,
+51,Update documentation,Update documentation and verify the expected output.,Admin,completed,medium,2026-06-23 22:30:08,2026-06-27 22:30:08,2026-06-30 19:30:08
+52,Sleep before midnight,Sleep before midnight and verify the expected output.,Health,in_progress,medium,2026-06-23 03:03:08,2026-07-07 15:38:08,
+53,Plan weekly budget,Plan weekly budget while tracking the main blockers.,Personal,open,medium,2026-06-14 00:55:08,2026-07-24 15:38:08,
+54,Clean apartment,Clean apartment and document the result.,Personal,completed,medium,2026-06-03 05:33:08,2026-06-17 05:33:08,2026-06-07 02:33:08
+55,Finish pandas exercise,Finish pandas exercise before the next weekly review.,Study,completed,high,2026-06-11 19:44:08,2026-06-24 19:44:08,2026-06-13 09:44:08
+56,Sleep before midnight,Sleep before midnight while tracking the main blockers.,Health,completed,medium,2026-06-11 03:23:08,2026-06-14 03:23:08,2026-06-22 01:23:08
+57,Plan dashboard improvements,Plan dashboard improvements and document the result.,Work,open,high,2026-05-21 17:05:08,2026-07-08 15:38:08,
+58,Update project roadmap,Update project roadmap before the next weekly review.,Work,in_progress,medium,2026-06-06 20:18:08,2026-07-22 15:38:08,
+59,Categorize transactions,Categorize transactions and keep the workflow reproducible.,Finance,in_progress,medium,2026-05-16 09:51:08,2026-07-17 15:38:08,
+60,Read 20 pages,Read 20 pages and verify the expected output.,Personal,completed,low,2026-06-10 19:23:08,2026-06-15 19:23:08,2026-06-17 21:23:08
+61,Update savings tracker,Update savings tracker before the next weekly review.,Finance,completed,medium,2026-06-08 13:30:08,2026-06-11 13:30:08,2026-06-12 01:30:08
+62,Pay utility bill,Pay utility bill and verify the expected output.,Finance,completed,medium,2026-06-20 22:09:08,2026-06-27 22:09:08,2026-06-21 04:09:08
+63,Track water intake,Track water intake while tracking the main blockers.,Health,in_progress,high,2026-05-16 21:14:08,2026-07-06 15:38:08,
+64,Take notes on testing,Take notes on testing and keep the workflow reproducible.,Study,in_progress,low,2026-06-15 21:51:08,2026-07-22 15:38:08,
+65,Plan weekly budget,Plan weekly budget before the next weekly review.,Personal,completed,medium,2026-06-18 04:56:08,2026-06-29 04:56:08,2026-06-25 03:56:08
+66,Read 20 pages,Read 20 pages and keep the workflow reproducible.,Personal,in_progress,low,2026-06-08 14:40:08,2026-07-23 15:38:08,
+67,Prepare sprint summary,Prepare sprint summary and verify the expected output.,Work,completed,low,2026-07-01 14:22:08,2026-07-08 14:22:08,2026-07-06 20:22:08
+68,Prepare healthy meal,Prepare healthy meal with enough detail for reuse.,Health,open,medium,2026-05-25 02:22:08,2026-07-11 15:38:08,
+69,Categorize transactions,Categorize transactions and document the result.,Finance,in_progress,medium,2026-06-01 12:49:08,2026-07-11 15:38:08,
+70,Organize desk,Organize desk and document the result.,Personal,open,high,2026-06-11 18:31:08,2026-07-20 15:38:08,
+71,Update savings tracker,Update savings tracker with enough detail for reuse.,Finance,completed,medium,2026-05-25 17:31:08,2026-06-07 17:31:08,2026-05-28 02:31:08
+72,Write release notes,Write release notes and document the result.,Work,in_progress,medium,2026-05-15 03:13:08,2026-07-02 15:38:08,
+73,Plan next month budget,Plan next month budget and verify the expected output.,Finance,completed,medium,2026-06-22 18:00:08,2026-07-05 18:00:08,2026-06-24 12:00:08
+74,Refactor analytics module,Refactor analytics module while tracking the main blockers.,Work,completed,medium,2026-06-09 19:17:08,2026-06-10 19:17:08,2026-06-16 10:17:08
+75,Update project roadmap,Update project roadmap with enough detail for reuse.,Work,open,low,2026-05-28 11:11:08,2026-07-23 15:38:08,
+76,Complete plotting tutorial,Complete plotting tutorial while tracking the main blockers.,Study,open,medium,2026-05-20 16:01:08,2026-07-08 15:38:08,
+77,Refactor analytics module,Refactor analytics module and keep the workflow reproducible.,Work,completed,medium,2026-06-02 18:14:08,2026-06-08 18:14:08,2026-06-03 09:14:08
+78,Finish pandas exercise,Finish pandas exercise and keep the workflow reproducible.,Study,completed,low,2026-06-21 06:42:08,2026-07-01 06:42:08,2026-06-25 23:42:08
+79,Write release notes,Write release notes before the next weekly review.,Work,completed,low,2026-06-10 21:50:08,2026-06-14 21:50:08,2026-06-18 17:50:08
+80,Check subscription costs,Check subscription costs and keep the workflow reproducible.,Finance,open,high,2026-06-28 02:54:08,2026-07-02 15:38:08,
