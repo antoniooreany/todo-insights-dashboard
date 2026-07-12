@@ -1,0 +1,11 @@
+# Summary Metrics
+
+| Metric | Value |
+|---|---:|
+| total_tasks | 80.0 |
+| completed_tasks | 42.0 |
+| open_tasks | 17.0 |
+| in_progress_tasks | 21.0 |
+| overdue_tasks | 14.0 |
+| completion_rate_pct | 52.5 |
+| avg_completion_days | 4.74 |
