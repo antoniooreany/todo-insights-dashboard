@@ -1,71 +1,177 @@
-from pathlib import Path
+from __future__ import annotations
+
 import sqlite3
+from pathlib import Path
+
 import pandas as pd
 import plotly.express as px
 
-BASE_DIR = Path(__file__).resolve().parents[1]
-DATA_DIR = BASE_DIR / "data"
-CHARTS_DIR = BASE_DIR / "charts"
-DB_PATH = DATA_DIR / "todos.db"
+
+ROOT = Path(__file__).resolve().parents[1]
+DB_PATH = ROOT / "data" / "todo_demo.db"
+OUTPUT_DIR = ROOT / "output"
+CHARTS_DIR = OUTPUT_DIR / "charts"
+REPORTS_DIR = OUTPUT_DIR / "reports"
 
 
-def read_query(conn, query: str) -> pd.DataFrame:
-    return pd.read_sql_query(query, conn)
-
-
-def main():
-    if not DB_PATH.exists():
-        raise FileNotFoundError("Database not found. Run scripts/seed_data.py first.")
-
+def ensure_output_dirs() -> None:
     CHARTS_DIR.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(DB_PATH)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    total_tasks = read_query(conn, "SELECT COUNT(*) AS total_tasks FROM todos")
-    status_breakdown = read_query(conn, "SELECT is_done, COUNT(*) AS task_count FROM todos GROUP BY is_done")
-    completion_rate = read_query(conn, "SELECT ROUND(100.0 * SUM(CASE WHEN is_done = 1 THEN 1 ELSE 0 END) / COUNT(*), 2) AS completion_rate FROM todos")
-    overdue_tasks = read_query(conn, "SELECT COUNT(*) AS overdue_tasks FROM todos WHERE is_done = 0 AND due_date IS NOT NULL AND date(due_date) < date('now')")
-    avg_completion = read_query(conn, "SELECT ROUND(AVG(julianday(completed_at) - julianday(created_at)), 2) AS avg_completion_days FROM todos WHERE completed_at IS NOT NULL")
 
-    created_df = read_query(conn, "SELECT date(created_at) AS day, COUNT(*) AS created_count FROM todos GROUP BY date(created_at) ORDER BY day")
-    completed_df = read_query(conn, "SELECT date(completed_at) AS day, COUNT(*) AS completed_count FROM todos WHERE completed_at IS NOT NULL GROUP BY date(completed_at) ORDER BY day")
-    category_df = read_query(conn, "SELECT category, COUNT(*) AS task_count FROM todos GROUP BY category ORDER BY task_count DESC")
+def load_todos() -> pd.DataFrame:
+    with sqlite3.connect(DB_PATH) as conn:
+        df = pd.read_sql_query("SELECT * FROM todos", conn)
 
-    conn.close()
+    for col in ["created_at", "due_date", "completed_at"]:
+        df[col] = pd.to_datetime(df[col], errors="coerce")
 
-    fig_created = px.line(created_df, x="day", y="created_count", markers=True, title="Tasks created over time")
-    fig_created.update_layout(xaxis_title="Date", yaxis_title="Tasks created")
-    fig_created.write_html(CHARTS_DIR / "created_over_time.html")
+    return df
 
-    fig_completed = px.bar(completed_df, x="day", y="completed_count", title="Tasks completed over time")
-    fig_completed.update_layout(xaxis_title="Date", yaxis_title="Tasks completed")
-    fig_completed.write_html(CHARTS_DIR / "completed_over_time.html")
 
-    fig_category = px.bar(category_df, x="category", y="task_count", title="Tasks by category")
-    fig_category.update_layout(xaxis_title="Category", yaxis_title="Task count")
-    fig_category.write_html(CHARTS_DIR / "tasks_by_category.html")
+def build_summary_metrics(df: pd.DataFrame) -> pd.DataFrame:
+    total_tasks = len(df)
+    completed_tasks = int((df["status"] == "completed").sum())
+    open_tasks = int((df["status"] == "open").sum())
+    in_progress_tasks = int((df["status"] == "in_progress").sum())
 
-    summary_path = BASE_DIR / "analysis_summary.md"
-    summary_path.write_text(
-        "\n".join([
-            "# Analysis Summary",
-            "",
-            f"- Total tasks: {int(total_tasks.iloc[0, 0])}",
-            f"- Completion rate: {float(completion_rate.iloc[0, 0]):.2f}%",
-            f"- Overdue tasks: {int(overdue_tasks.iloc[0, 0])}",
-            f"- Average completion time: {float(avg_completion.iloc[0, 0]):.2f} days",
-            "",
-            "## Status breakdown",
-            status_breakdown.to_markdown(index=False),
-            "",
-            "## Category breakdown",
-            category_df.to_markdown(index=False),
-        ]),
-        encoding="utf-8",
+    overdue_tasks = int(
+        ((df["due_date"].notna()) &
+         (df["due_date"] < pd.Timestamp.now()) &
+         (df["status"] != "completed")).sum()
     )
 
-    print("Analysis complete.")
-    print(f"Charts saved to {CHARTS_DIR}")
-    print(f"Summary saved to {summary_path}")
+    completion_rate = round((completed_tasks / total_tasks) * 100, 2) if total_tasks else 0.0
+
+    completed_df = df[df["status"] == "completed"].copy()
+    completed_df["completion_days"] = (
+        completed_df["completed_at"] - completed_df["created_at"]
+    ).dt.total_seconds() / 86400
+    avg_completion_days = round(completed_df["completion_days"].mean(), 2)
+
+    summary = pd.DataFrame(
+        [
+            {"metric": "total_tasks", "value": total_tasks},
+            {"metric": "completed_tasks", "value": completed_tasks},
+            {"metric": "open_tasks", "value": open_tasks},
+            {"metric": "in_progress_tasks", "value": in_progress_tasks},
+            {"metric": "overdue_tasks", "value": overdue_tasks},
+            {"metric": "completion_rate_pct", "value": completion_rate},
+            {"metric": "avg_completion_days", "value": avg_completion_days},
+        ]
+    )
+    return summary
+
+
+def build_created_by_day(df: pd.DataFrame) -> pd.DataFrame:
+    created = (
+        df.assign(created_day=df["created_at"].dt.date)
+        .groupby("created_day", as_index=False)
+        .size()
+        .rename(columns={"size": "tasks_created"})
+    )
+    return created
+
+
+def build_status_distribution(df: pd.DataFrame) -> pd.DataFrame:
+    status_dist = (
+        df.groupby("status", as_index=False)
+        .size()
+        .rename(columns={"size": "task_count"})
+    )
+    return status_dist
+
+
+def build_open_tasks_by_category(df: pd.DataFrame) -> pd.DataFrame:
+    open_cat = (
+        df[df["status"] != "completed"]
+        .groupby("category", as_index=False)
+        .size()
+        .rename(columns={"size": "open_tasks"})
+        .sort_values(["open_tasks", "category"], ascending=[False, True])
+    )
+    return open_cat
+
+
+def save_summary_markdown(summary: pd.DataFrame) -> None:
+    lines = [
+        "# Summary Metrics",
+        "",
+        "| Metric | Value |",
+        "|---|---:|",
+    ]
+
+    for _, row in summary.iterrows():
+        lines.append(f"| {row['metric']} | {row['value']} |")
+
+    output_path = REPORTS_DIR / "summary_metrics.md"
+    output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def save_chart_created_by_day(created_by_day: pd.DataFrame) -> None:
+    fig = px.line(
+        created_by_day,
+        x="created_day",
+        y="tasks_created",
+        markers=True,
+        title="Tasks Created Over Time",
+    )
+    fig.update_layout(template="plotly_white")
+    fig.write_html(CHARTS_DIR / "tasks_created_over_time.html")
+
+
+def save_chart_status_distribution(status_dist: pd.DataFrame) -> None:
+    fig = px.bar(
+        status_dist,
+        x="status",
+        y="task_count",
+        color="status",
+        title="Task Status Distribution",
+    )
+    fig.update_layout(template="plotly_white", showlegend=False)
+    fig.write_html(CHARTS_DIR / "task_status_distribution.html")
+
+
+def save_chart_open_by_category(open_by_category: pd.DataFrame) -> None:
+    fig = px.bar(
+        open_by_category,
+        x="open_tasks",
+        y="category",
+        orientation="h",
+        title="Open Tasks by Category",
+    )
+    fig.update_layout(template="plotly_white", yaxis={"categoryorder": "total ascending"})
+    fig.write_html(CHARTS_DIR / "open_tasks_by_category.html")
+
+
+def main() -> None:
+    ensure_output_dirs()
+
+    df = load_todos()
+    summary = build_summary_metrics(df)
+    created_by_day = build_created_by_day(df)
+    status_dist = build_status_distribution(df)
+    open_by_category = build_open_tasks_by_category(df)
+
+    summary.to_csv(REPORTS_DIR / "summary_metrics.csv", index=False)
+    created_by_day.to_csv(REPORTS_DIR / "created_by_day.csv", index=False)
+    status_dist.to_csv(REPORTS_DIR / "status_distribution.csv", index=False)
+    open_by_category.to_csv(REPORTS_DIR / "open_tasks_by_category.csv", index=False)
+
+    save_summary_markdown(summary)
+    save_chart_created_by_day(created_by_day)
+    save_chart_status_distribution(status_dist)
+    save_chart_open_by_category(open_by_category)
+
+    print("Generated files:")
+    print(f"- {REPORTS_DIR / 'summary_metrics.csv'}")
+    print(f"- {REPORTS_DIR / 'summary_metrics.md'}")
+    print(f"- {REPORTS_DIR / 'created_by_day.csv'}")
+    print(f"- {REPORTS_DIR / 'status_distribution.csv'}")
+    print(f"- {REPORTS_DIR / 'open_tasks_by_category.csv'}")
+    print(f"- {CHARTS_DIR / 'tasks_created_over_time.html'}")
+    print(f"- {CHARTS_DIR / 'task_status_distribution.html'}")
+    print(f"- {CHARTS_DIR / 'open_tasks_by_category.html'}")
 
 
 if __name__ == "__main__":
