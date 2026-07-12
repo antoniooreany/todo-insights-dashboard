@@ -1,4 +1,4 @@
-# Todo Insights Dashboard
+# Todo Analytics Dashboard
 
 A portfolio-style analytics project built around a todo dataset using SQLite, SQL, Python, Pandas, Plotly, and PowerShell.
 
@@ -246,3 +246,8 @@ v0.2.0
 ```
 
 See `CHANGELOG.md` for release history and notable changes.
+
+## Related project
+
+Companion project: [Todo API Service](https://github.com/antoniooreany/todo-api-service)
+
