@@ -2,32 +2,42 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is inspired by Keep a Changelog and the project follows a simple semantic versioning style.
+The project follows a simple semantic versioning style, and changelog entries are grouped in a human-readable format.
 
 ## [Unreleased]
 
 ### Added
 
-- Placeholder for upcoming features.
+- Placeholder for upcoming changes.
+
+## [0.2.0] - 2026-07-12
+
+### Added
+
+- Added `docs/v0.2.0-plan.md` to define the analytics roadmap.
+- Added lifecycle analytics fields to the todo model: `category`, `created_at`, `due_date`, `completed_at`, and `priority`.
+- Added `scripts/seed_demo_data.py` to generate realistic demo tasks and export CSV data.
+- Added `sql/kpi_queries.sql` for KPI calculations and reporting queries.
+- Added `scripts/analyze_todos.py` to generate analytics summaries and export report files.
+- Added Plotly chart generation for:
+  - `tasks_created_over_time.html`
+  - `task_status_distribution.html`
+  - `open_tasks_by_category.html`
+- Added `scripts/validate_analytics.ps1` to compare SQL results against generated summary metrics.
+- Added generated report outputs in `output/reports/`.
+- Added generated chart outputs in `output/charts/`.
+
+### Changed
+
+- Expanded the project from a simple todo demo into a portfolio-style analytics workflow.
+- Improved reproducibility through seeded demo data, automated summaries, generated chart outputs, and validation checks.
+- Updated `README.md` with a clearer project overview, setup instructions, workflow, outputs, testing steps, and reproducibility notes.
+- Updated repository structure to support analytics reporting and validation workflows.
 
 ## [0.1.0] - 2026-07-12
 
 ### Added
 
-- Seeded demo todo dataset in SQLite and CSV formats.
-- Analytics script for summary metrics such as completion rate, overdue tasks, and average completion time.
-- Plotly HTML charts for created tasks over time, completed tasks over time, and tasks by category.
-- SQL query collection for reusable reporting logic.
-- Project report generator for repository inspection and reproducibility.
-- Basic pytest-based test scaffolding.
-- GitHub Actions CI workflow for automated test execution.
-
-### Changed
-
-- Improved README documentation with clearer setup, usage, project reporting, testing, and CI instructions.
-- Updated repository structure to support report generation and test automation.
-
-### Fixed
-
-- Improved local test execution by aligning the test package structure with Python imports.
-
+- Initial project release.
+- Base todo insights project structure.
+- First tagged GitHub release for `v0.1.0`.
