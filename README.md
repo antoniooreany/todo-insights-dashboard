@@ -325,3 +325,11 @@ pytest
 This repository uses GitHub Actions to run automated tests on:
 - pushes to feature, develop, and main branches
 - pull requests targeting develop and main
+
+## Project metadata
+
+This repository includes additional project metadata files for release and maintenance workflows:
+
+- `CHANGELOG.md` for notable versioned changes
+- `LICENSE` for repository licensing terms
+- `.github/release-template.md` for GitHub release drafting
